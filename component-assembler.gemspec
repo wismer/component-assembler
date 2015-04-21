@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
     "lib/component_assembler.rb",
     "lib/component_assembler/component_builder.rb",
     "lib/component_assembler/assembler_cli.rb",
+    "lib/component_assembler/assembler_directory.rb",
     "bin/component-assemble"
   ]
   s.homepage    = 'https://wismer.github.io'
