@@ -1,5 +1,5 @@
 module ComponentAssembler
-  class Assembler
+  class Assembler < Thor
     include ComponentBuilder
 
     desc "composes the main js file by adding `require`", 'require add'

@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-require 'component-assembler'
+
+require 'component_assembler'
 ComponentAssembler::Assembler.start

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'component-assembler'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2015-04-21'
   s.summary     = "Simple tool for generating React.js component files"
   s.description = "ReactJS component builder"

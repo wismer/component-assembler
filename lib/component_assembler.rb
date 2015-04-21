@@ -1,7 +1,7 @@
 require 'thor'
-require 'component-assembler/component_builder'
-require 'component-assembler/assembler_cli'
+require 'component_assembler/component_builder'
+require 'component_assembler/assembler_cli'
 
 module ComponentAssembler
-  class Assembler < Thor; end
+  class Assembler; end
 end
