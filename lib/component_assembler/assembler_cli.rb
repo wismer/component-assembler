@@ -12,11 +12,9 @@ module ComponentAssembler
 
     desc "create a React component with all the bells and whistles", "component bldr"
     method_options :alias => 'a'
-    def all(component="", elem="")
+    def all(component="", elem="", destination="")
       component = component.split("_").map(&:capitalize).join
-      file = File.new("#{component.downcase}.js", "a+")
-      file << compose_file(component, elem)
-      file.close
+      AssemblerDirectory.new(destination, component) << compose_file(component, elem)
     end
 
     desc "creates js file of [COMPONENT]", "shows react component"
