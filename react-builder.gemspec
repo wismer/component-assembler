@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'react-builder'
+  s.name        = 'component-assembler'
   s.version     = '0.0.0'
   s.date        = '2015-04-21'
   s.summary     = "Simple tool for generating React.js component files"
@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.files       = [
     "lib/component_assembler.rb",
     "lib/component_assembler/component_builder.rb",
-    "lib/component_assembler/assembler_cli.rb"
+    "lib/component_assembler/assembler_cli.rb",
+    "bin/component-assemble"
   ]
   s.homepage    = 'https://wismer.github.io'
   s.license     = 'MIT'
